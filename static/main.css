@@ -1,0 +1,38 @@
+:root {
+    --main_color: #000000;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    background: var(--main_color);
+    color: white;
+    font-size: 30px;
+}
+
+#container {
+    height: 80vh;
+    /* transform: translate(-113px, 103px); */
+}
+
+#containercontainer {
+    height: 80vh;
+    width: auto;
+    border-radius: 10px;
+    border: 2px solid var(--main_color);
+    overflow: hidden;
+    margin: 1rem;
+    margin-bottom: 0;
+    padding: -50px;
+}
+
+.buttons {
+    align-items: center;
+}
+
